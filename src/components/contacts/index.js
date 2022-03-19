@@ -7,7 +7,7 @@ import Image3 from "../../images/about1/pexels-skitterphoto-19043.jpg";
 class Contact extends Component {
     render() {
         return (
-            <section className="contact">
+            <section className="contact" id="contact">
                 <div className="container">
                     <h2>Let's get in touch</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </p>

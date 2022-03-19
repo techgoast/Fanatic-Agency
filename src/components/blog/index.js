@@ -4,7 +4,7 @@ import "./style.css";
 class Blog extends Component {
     render() {
         return(
-            <section className="blog">
+            <section className="blog" id="blog">
                 <div className="container">
                     <h2>Our Blog Stories</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>

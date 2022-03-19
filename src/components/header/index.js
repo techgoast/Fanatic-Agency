@@ -24,14 +24,14 @@ class Header extends Component {
                         <div>fantastic</div>
                     </div>
                     <ul className={this.state.active? "active" : ""}>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">projects</a></li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">pricing</a></li>
-                        <li><a href="#">contact</a></li>
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">get started</a></li>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#srvs">services</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#pricing">pricing</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <li><a href="#contact">login</a></li>
+                        <li><a href="#projects">get started</a></li>
                     </ul>
                     <div className="menu" onClick={this.handleClick}>
                         <span></span>

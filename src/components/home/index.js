@@ -4,7 +4,7 @@ import "./style.css";
 class Home extends Component {
     render() {
         return(
-            <section className="home">
+            <section className="home" id="home">
                 <div className="container">
                     <div className="text1">
                         <h1>we are digital agency</h1>

@@ -8,7 +8,7 @@ import Printer from "../../images/icons/printer.png";
 class Services extends Component {
     render() {
         return(
-            <section className="services">
+            <section className="services" id="srvs">
                 <div className="container">
                     <h2>our awesome services</h2>
                     <p className="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>

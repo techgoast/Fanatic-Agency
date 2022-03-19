@@ -6,7 +6,7 @@ import Image1 from "../../images/awesome projects/pexels-steve-johnson-1047524.j
 class Projects extends Component {
     render() {
         return(
-            <section className="projects">
+            <section className="projects" id="projects">
                 <div className="container">
                     <h2>Our Awesome Projects</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>

@@ -8,7 +8,7 @@ import Device from "../../images/icons/device.png";
 class Pricing extends Component {
     render() {
         return(
-            <section className="pricing">
+            <section className="pricing" id="pricing">
                 <div className="container">
                     <h2>Check Our Pricing</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </p>
