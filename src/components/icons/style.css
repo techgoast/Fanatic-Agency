@@ -1,0 +1,18 @@
+.brands {
+  padding: 50px 0;
+  background-color: var(--white-color);
+  margin: 50px 0;
+}
+.brands .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .brands .container div {
+    width: calc(100% / 3);
+    text-align: center;
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,109 @@
+.home .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1199px) {
+  .home .container {
+    flex-direction: column;
+  }
+}
+.home .text1 {
+  width: 50%;
+}
+@media (max-width: 1199px) {
+  .home .text1 {
+    width: 80%;
+    text-align: center;
+    margin: 50px 0;
+  }
+}
+.home .text1 h1 {
+  font-family: "gilroy-extrabolduploaded_file";
+  font-size: 66px;
+  text-transform: capitalize;
+}
+@media (max-width: 600px) {
+  .home .text1 h1 {
+    font-size: 30px;
+  }
+}
+.home .text1 p {
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.home .text1 button {
+  border: none;
+  background-color: var(--moov-color);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.home .image {
+  width: 414px;
+  height: 606px;
+  background-image: url("../../images/pexels-digital-buggu-374559.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  position: relative;
+}
+.home .image .text2 {
+  width: 335px;
+  background-color: var(--bold-color);
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 25px;
+  position: absolute;
+  bottom: 15px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+@media (max-width: 991px) {
+  .home .image .text2 {
+    left: 50%;
+  }
+}
+.home .image .text2 div {
+  position: relative;
+  padding: 20px 10px;
+}
+.home .image .text2 div::before {
+  content: '"';
+  color: var(--yellow-color);
+  position: absolute;
+  top: -60px;
+  left: -40px;
+  font-size: 100px;
+  font-weight: bold;
+}
+.home .image .text2 div::after {
+  content: "Ralph Waldo Emerson";
+  color: var(--yellow-color);
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  font-weight: bold;
+}

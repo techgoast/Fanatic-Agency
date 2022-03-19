@@ -1,0 +1,94 @@
+.about1 {
+  background-color: var(--white-color);
+  padding: 0;
+}
+.about1 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about1 .images {
+  width: 60%;
+}
+@media (max-width: 800px) {
+  .about1 .images {
+    width: 100%;
+  }
+}
+.about1 .images .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: space-between;
+}
+@media (max-width: 800px) {
+  .about1 .images .row {
+    justify-content: center;
+  }
+}
+.about1 .images .row div {
+  width: 112px;
+  height: 124px;
+  margin: 50px 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.about1 .images .row div::after {
+  font-family: "gilroy-extrabolduploaded_file";
+  position: absolute;
+  right: 0;
+}
+.about1 .images .row .one {
+  transform: scale(1.75, 2);
+  -webkit-transform: scale(1.75, 2);
+  -moz-transform: scale(1.75, 2);
+  -ms-transform: scale(1.75, 2);
+  -o-transform: scale(1.75, 2);
+  background-image: url("../../images/about1/pexels-antoni-shkraba-4348403.jpg");
+}
+.about1 .images .row .one::after {
+  content: "Photo by ANTONI SHKRABA from Pexels";
+  font-size: 8px;
+  bottom: -18px;
+}
+.about1 .images .row .two {
+  transform: scaleY(1.5);
+  -webkit-transform: scaleY(1.5);
+  -moz-transform: scaleY(1.5);
+  -ms-transform: scaleY(1.5);
+  -o-transform: scaleY(1.5);
+  background-image: url("../../images/about1/pexels-canva-studio-3153198.jpg");
+}
+.about1 .images .row .two::after {
+  content: "Photo by Canva Studio from Pexels";
+  font-size: 9px;
+  bottom: -20px;
+}
+.about1 .images .row .three {
+  background-image: url("../../images/about1/pexels-skitterphoto-19043.jpg");
+}
+.about1 .images .row .three::after {
+  content: "Skitter Photo from Pexels";
+  font-size: 9px;
+  bottom: -22px;
+}
+.about1 .images .row .four {
+  transform: scaleY(1.5);
+  -webkit-transform: scaleY(1.5);
+  -moz-transform: scaleY(1.5);
+  -ms-transform: scaleY(1.5);
+  -o-transform: scaleY(1.5);
+  background-image: url("../../images/about1/pexels-designecologist-1751279.jpg");
+}
+.about1 .images .row .four::after {
+  content: "Photo by Designecologist from Pexels";
+  font-size: 9px;
+  bottom: -22px;
+}

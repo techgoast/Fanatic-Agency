@@ -1,0 +1,81 @@
+.projects h2 {
+  font-family: "gilroy-extrabolduploaded_file";
+  font-size: 40px;
+}
+.projects h2 + p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 2;
+  padding: 20px 0 30px;
+  width: 600px;
+}
+@media (max-width: 767px) {
+  .projects h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .projects h2 + p {
+    width: 400px;
+    margin: auto;
+  }
+}
+.projects .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects .items .item {
+  width: calc((100% - 20px) / 3);
+  margin-top: 25px;
+}
+@media (max-width: 991px) {
+  .projects .items .item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+@media (max-width: 767px) {
+  .projects .items .item {
+    width: 80%;
+    margin: 25px auto;
+  }
+}
+.projects .image {
+  width: 100%;
+  border-radius: 14px 14px 19px 14px;
+  -webkit-border-radius: 14px 14px 19px 14px;
+  -moz-border-radius: 14px 14px 19px 14px;
+  -ms-border-radius: 14px 14px 19px 14px;
+  -o-border-radius: 14px 14px 19px 14px;
+}
+.projects .image img {
+  max-width: 100%;
+}
+.projects .item h3 {
+  font-family: "gilroy-extrabolduploaded_file";
+  font-size: 20px;
+  padding: 20px 0;
+}
+.projects .item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.projects button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  display: block;
+  margin: 50px auto;
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  background-color: var(--moov-color);
+  color: white;
+  text-transform: capitalize;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  cursor: pointer;
+}
