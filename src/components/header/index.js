@@ -21,7 +21,7 @@ class Header extends Component {
                             <span></span>
                             <span></span>
                         </div>
-                        <div>fantastic</div>
+                        <div>fanatic</div>
                     </div>
                     <ul className={this.state.active? "active" : ""}>
                         <li><a href="#home">home</a></li>

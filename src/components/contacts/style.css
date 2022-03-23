@@ -88,6 +88,7 @@
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   margin: 10px;
+  overflow: hidden;
 }
 .contact .col .img img {
   max-width: 100%;

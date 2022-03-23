@@ -11,7 +11,7 @@ footer .container {
   align-items: center;
 }
 footer .copy span {
-  color: var(--moov-color);
+  color: #8971ae;
 }
 footer .top {
   cursor: pointer;

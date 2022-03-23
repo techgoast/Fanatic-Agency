@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./style.css";
-import Image1 from "../../images/about1/pexels-canva-studio-3153198.jpg";
-import Image2 from "../../images/about1/pexels-designecologist-1751279.jpg";
-import Image3 from "../../images/about1/pexels-skitterphoto-19043.jpg";
+import Image1 from "../../images/about1/pexels-canva-studio-3153198.webp";
+import Image2 from "../../images/about1/pexels-designecologist-1751279.webp";
+import Image3 from "../../images/about1/pexels-skitterphoto-19043.webp";
 
 class Contact extends Component {
     render() {
@@ -13,11 +13,11 @@ class Contact extends Component {
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </p>
                     <div className="content">
                         <form>
-                            <label for="name">Full Name</label>
+                            <label htmlFor="name">Full Name</label>
                             <input type="text" id="name" placeholder="Product Offer" />
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type="email" id="email" placeholder="lopremipusm@mail.comt" />
-                            <label for="subject">Subject</label>
+                            <label htmlFor="subject">Subject</label>
                             <input type="text" id="subject" placeholder="Subject" />
                             <textarea placeholder="Your Message here" />
                             <input type="submit" value="Send Message" />

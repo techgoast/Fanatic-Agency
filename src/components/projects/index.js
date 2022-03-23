@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
-import Image from "../../images/awesome projects/pexels-los-muertos-crew-8030147.jpg";
-import Image1 from "../../images/awesome projects/pexels-steve-johnson-1047524.jpg";
+import Image from "../../images/awesome projects/pexels-los-muertos-crew-8030147.webp";
+import Image1 from "../../images/awesome projects/pexels-steve-johnson-1047524.webp";
 
 class Projects extends Component {
     render() {

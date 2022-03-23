@@ -51,7 +51,7 @@
   -moz-transform: scale(1.75, 2);
   -ms-transform: scale(1.75, 2);
   -o-transform: scale(1.75, 2);
-  background-image: url("../../images/about1/pexels-antoni-shkraba-4348403.jpg");
+  background-image: url("../../images/about1/pexels-antoni-shkraba-4348403.webp");
 }
 .about1 .images .row .one::after {
   content: "Photo by ANTONI SHKRABA from Pexels";
@@ -64,7 +64,7 @@
   -moz-transform: scaleY(1.5);
   -ms-transform: scaleY(1.5);
   -o-transform: scaleY(1.5);
-  background-image: url("../../images/about1/pexels-canva-studio-3153198.jpg");
+  background-image: url("../../images/about1/pexels-canva-studio-3153198.webp");
 }
 .about1 .images .row .two::after {
   content: "Photo by Canva Studio from Pexels";
@@ -72,7 +72,7 @@
   bottom: -20px;
 }
 .about1 .images .row .three {
-  background-image: url("../../images/about1/pexels-skitterphoto-19043.jpg");
+  background-image: url("../../images/about1/pexels-skitterphoto-19043.webp");
 }
 .about1 .images .row .three::after {
   content: "Skitter Photo from Pexels";
@@ -85,7 +85,7 @@
   -moz-transform: scaleY(1.5);
   -ms-transform: scaleY(1.5);
   -o-transform: scaleY(1.5);
-  background-image: url("../../images/about1/pexels-designecologist-1751279.jpg");
+  background-image: url("../../images/about1/pexels-designecologist-1751279.webp");
 }
 .about1 .images .row .four::after {
   content: "Photo by Designecologist from Pexels";
