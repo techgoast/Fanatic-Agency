@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Fanatic-Agency/static/css/main.1435958c.css",
+    "main.js": "/Fanatic-Agency/static/js/main.39dd2511.js",
+    "static/js/787.e2aa875a.chunk.js": "/Fanatic-Agency/static/js/787.e2aa875a.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Fanatic-Agency/static/media/fa-solid-900.6aef0a3f12850e081374.ttf",
+    "static/media/pexels-antoni-shkraba-4348403.webp": "/Fanatic-Agency/static/media/pexels-antoni-shkraba-4348403.2ff2ba978bcec7280864.webp",
+    "static/media/fa-brands-400.ttf": "/Fanatic-Agency/static/media/fa-brands-400.8dddb1b4cd1f65b03167.ttf",
+    "static/media/pexels-digital-buggu-374559.webp": "/Fanatic-Agency/static/media/pexels-digital-buggu-374559.53f60a360e48525b90a8.webp",
+    "static/media/fa-solid-900.woff2": "/Fanatic-Agency/static/media/fa-solid-900.1089d04e572b44b3d54a.woff2",
+    "static/media/pexels-canva-studio-3153198.webp": "/Fanatic-Agency/static/media/pexels-canva-studio-3153198.36106eae5e04c7f991d0.webp",
+    "static/media/pexels-steve-johnson-1047524.webp": "/Fanatic-Agency/static/media/pexels-steve-johnson-1047524.15306fbac00a24a18b73.webp",
+    "static/media/pexels-los-muertos-crew-8030147.webp": "/Fanatic-Agency/static/media/pexels-los-muertos-crew-8030147.4f9aacfc01a775b54ddb.webp",
+    "static/media/fa-brands-400.woff2": "/Fanatic-Agency/static/media/fa-brands-400.a4ac62083ead21bd1ea2.woff2",
+    "static/media/pexels-skitterphoto-19043.webp": "/Fanatic-Agency/static/media/pexels-skitterphoto-19043.fe4ac7049e56a5d3a254.webp",
+    "static/media/fa-regular-400.ttf": "/Fanatic-Agency/static/media/fa-regular-400.e2e080ba746195932d7f.ttf",
+    "static/media/pexels-designecologist-1751279.webp": "/Fanatic-Agency/static/media/pexels-designecologist-1751279.a96097c65ca7da68a2a1.webp",
+    "static/media/fa-regular-400.woff2": "/Fanatic-Agency/static/media/fa-regular-400.d9ed9b6f8138a03cd29d.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Fanatic-Agency/static/media/fa-v4compatibility.83a9e0357eddeb41b08b.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Fanatic-Agency/static/media/fa-v4compatibility.2e77423e3ed431908eda.woff2",
+    "index.html": "/Fanatic-Agency/index.html",
+    "main.1435958c.css.map": "/Fanatic-Agency/static/css/main.1435958c.css.map",
+    "main.39dd2511.js.map": "/Fanatic-Agency/static/js/main.39dd2511.js.map",
+    "787.e2aa875a.chunk.js.map": "/Fanatic-Agency/static/js/787.e2aa875a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1435958c.css",
+    "static/js/main.39dd2511.js"
+  ]
+}
