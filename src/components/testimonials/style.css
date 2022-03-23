@@ -59,7 +59,8 @@
 }
 @media (max-width: 768px) {
   .testimonials .talks .talk {
-    width: 400px;
+    width: calc((100% - 30px));
+    margin: auto;
   }
 }
 .testimonials .talks .talk::before {
