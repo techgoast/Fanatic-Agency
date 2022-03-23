@@ -23,7 +23,7 @@
   font-size: 40px;
   padding: 10px 0 30px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about h2 {
     font-size: 25px;
   }

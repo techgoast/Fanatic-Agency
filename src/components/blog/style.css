@@ -15,8 +15,9 @@
     font-size: 25px;
   }
   .blog h2 + p {
-    width: 400px;
+    max-width: 99%;
     margin: auto;
+    text-align: center;
   }
 }
 .blog .items {

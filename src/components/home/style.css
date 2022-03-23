@@ -61,6 +61,11 @@
   -o-border-radius: 25px;
   position: relative;
 }
+@media(max-width: 767px) {
+  .home .image {
+    max-width: 100%;
+  }
+}
 .home .image .text2 {
   width: 335px;
   background-color: var(--bold-color);
@@ -83,7 +88,9 @@
 }
 @media (max-width: 991px) {
   .home .image .text2 {
+    max-width: 100%;
     left: 50%;
+    padding: 15px;
   }
 }
 .home .image .text2 div {

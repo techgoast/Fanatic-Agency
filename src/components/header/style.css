@@ -17,11 +17,6 @@ header .logo {
     color: white;
   }
 }
-@media (max-width: 767px) {
-  header .logo {
-    width: fit-content;
-  }
-}
 header .shapes {
   padding-right: 30px;
 }

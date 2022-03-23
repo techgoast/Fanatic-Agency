@@ -13,7 +13,7 @@
   margin: 20px 0 50px;
   line-height: 1.5;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .services {
     text-align: center;
   }
@@ -31,7 +31,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .services .items {
     flex-direction: column;
     text-align: center;
@@ -51,7 +51,7 @@
     width: calc((100% - 100px) / 2);
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .services .item {
     width: calc((100% - 100px));
   }

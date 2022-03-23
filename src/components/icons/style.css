@@ -9,7 +9,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .brands .container div {
     width: calc(100% / 3);
     text-align: center;

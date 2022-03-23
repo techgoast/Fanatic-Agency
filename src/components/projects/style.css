@@ -15,8 +15,9 @@
     font-size: 25px;
   }
   .projects h2 + p {
-    width: 400px;
+    max-width: 99%;
     margin: auto;
+    text-align: center;
   }
 }
 .projects .items {

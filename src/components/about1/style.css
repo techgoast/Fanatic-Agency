@@ -24,7 +24,9 @@
 }
 @media (max-width: 800px) {
   .about1 .images .row {
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 .about1 .images .row div {
@@ -65,6 +67,11 @@
   -ms-transform: scaleY(1.5);
   -o-transform: scaleY(1.5);
   background-image: url("../../images/about1/pexels-canva-studio-3153198.webp");
+}
+@media(max-width: 800px) {
+  .about1 .images .row .two {
+    margin-top: 100px;
+  }
 }
 .about1 .images .row .two::after {
   content: "Photo by Canva Studio from Pexels";
